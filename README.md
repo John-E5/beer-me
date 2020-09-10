@@ -1,5 +1,5 @@
 # beer-me
-
+VuejS Project
 ## Project setup
 ```
 npm install
