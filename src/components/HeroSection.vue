@@ -1,31 +1,27 @@
 <template>
-    <v-container fluid
+    <v-container
+        fluid
         fill-height
         class="hero-image"
-        style="max-height: 100vh;">
+        style="max-height: 100vh;"
+    >
         <v-layout justify-center align-center column pa-5>
             <div
                 class="display-4 font-weight-black indigo--text text-xs-center"
             >
-                Cant Decide on what brewdog you want?
-            </div>
-            <div
-                class="display-4 font-weight-black indigo--text text-xs-center mb-3"
-            >
-                Let us help you decide
+                Cant Decide on a Brewdog?
             </div>
             <div class="display-1 font-weight-bold indigo--text text-xs-center">
                 Get help with choosing your brew!.
             </div>
         </v-layout>
-
     </v-container>
 </template>
 
 <script>
 export default {
     name: 'HeroSection'
-}
+};
 </script>
 
 <style scoped>
@@ -35,5 +31,4 @@ export default {
     width: 100%;
     height: 100%;
 }
-
 </style>
