@@ -1,8 +1,9 @@
 <template>
     <v-card>
-        <v-card-title>{{info}}</v-card-title>
-        <v-card-subtitle></v-card-subtitle>
-        <v-card-text></v-card-text>
+        <v-img :src="imgUrl"></v-img>
+        <v-card-title>{{info.name}}</v-card-title>
+        <v-card-subtitle>{{info.tagline}}</v-card-subtitle>
+        <v-card-text>{{info.description}}</v-card-text>
     </v-card>
 </template>
 
@@ -13,6 +14,7 @@ export default {
     data() {
         return {
             info: null,
+            imgUrl: [],
             errored: false
         };
     },
@@ -20,7 +22,8 @@ export default {
         axios
             .get('https://api.punkapi.com/v2/beers/random')
             .then(response => {
-                (this.info = response.data);
+                (this.info = response.data[0]),
+                (this.imgUrl = response.data[0].image_url);;
             })
             .catch(error => {
                 console.log(error);
