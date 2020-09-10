@@ -1,6 +1,7 @@
 <template>
     <v-card>
-        <v-img :src="imgUrl"></v-img>
+        <v-img :src="imgUrl" max-width="700"
+      max-height="300" contain></v-img>
         <v-card-title>{{info.name}}</v-card-title>
         <v-card-subtitle>{{info.tagline}}</v-card-subtitle>
         <v-card-text>{{info.description}}</v-card-text>
