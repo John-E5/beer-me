@@ -17,6 +17,7 @@
                 <v-list-item-content>
                     <v-list-item-title>Contact</v-list-item-title>
                 </v-list-item-content>
+                </v-list-item>
             </v-list>
         </v-navigation-drawer>
         <v-app-bar app color="indigo darken-4">
