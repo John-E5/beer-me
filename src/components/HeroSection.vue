@@ -11,6 +11,7 @@
             >
                 Cant Decide on a Brewdog?
             </div>
+
             <div class="display-1 font-weight-bold indigo--text text-xs-center">
                 Get help with choosing your brew!.
             </div>

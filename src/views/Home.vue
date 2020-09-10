@@ -1,18 +1,19 @@
 <template>
     <v-main>
         <HeroSection />
-        <BeerChoices/>
+        <BeerSelect />
     </v-main>
 </template>
 
 <script>
 import HeroSection from '@/components/HeroSection.vue';
-import BeerChoices from '@/components/BeerChoices.vue'
+import BeerSelect from '@/components/BeerSelect.vue';
 export default {
     name: 'Home',
     components: {
         HeroSection,
-        BeerChoices
+        BeerSelect,
+        
     }
 };
 </script>
