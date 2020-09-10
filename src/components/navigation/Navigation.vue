@@ -19,11 +19,25 @@
                 </v-list-item>
             </v-list>
         </v-navigation-drawer>
+        <v-app-bar app color="indigo darken-4">
+            <v-app-bar-nav-icon
+                @click.stop="drawer = !drawer"
+            ></v-app-bar-nav-icon>
+            <v-toolbar-title>{{siteTitle}}</v-toolbar-title>
+
+            <v-spacer></v-spacer>
+        </v-app-bar>
 </template>
 
 <script>
 export default {
-    
+    name: 'Navigation',
+    data() {
+        return {
+            siteTitle: 'Beer Me',
+            drawer: null
+        }
+    },
 }
 </script>
 
