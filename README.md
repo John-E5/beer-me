@@ -1,5 +1,14 @@
+https://travis-ci.org/John-E5/beer-me.svg?branch=master
+
 # beer-me
-VuejS Project
+VuejS Project about getting help to choose a brewdog branded beer,
+Pulling data from punk api.
+
+Uses Vuetify framework
+
+jest
+
+travisCi
 ## Project setup
 ```
 npm install
