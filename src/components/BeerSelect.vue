@@ -2,7 +2,9 @@
     <v-row align="center">
         <v-col class="text-center" cols="12" sm="4">
             <div class="my-2">
-                <v-btn @click="toggleBeers" large color="primary">Beer Me</v-btn>
+                <v-btn @click="toggleBeers" large color="primary"
+                    >Beer Me</v-btn
+                >
                 <BeerChoices v-if="showBeers" />
             </div>
         </v-col>
@@ -29,6 +31,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -12,8 +12,7 @@ export default {
     name: 'Home',
     components: {
         HeroSection,
-        BeerSelect,
-        
+        BeerSelect
     }
 };
 </script>
