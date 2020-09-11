@@ -8,7 +8,7 @@ describe('Navigation.vue', () => {
 });
 
 describe('BeerChoices.vue', () => {
-    it('has data', () => {
-        expect(typeof BeerChoices.data).toBe('function');
+    it('has info data', () => {
+        expect(typeof BeerChoices.data.info).toBeTruthy();
     });
 });
