@@ -1,4 +1,4 @@
-https://travis-ci.org/John-E5/beer-me.svg?branch=master
+[![Build Status](https://travis-ci.org/John-E5/beer-me.svg?branch=master)](https://travis-ci.org/John-E5/beer-me)
 
 # beer-me
 VuejS Project about getting help to choose a brewdog branded beer,
