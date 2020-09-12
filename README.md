@@ -1,14 +1,16 @@
 [![Build Status](https://travis-ci.org/John-E5/beer-me.svg?branch=master)](https://travis-ci.org/John-E5/beer-me)
 
 # beer-me
-Basic VuejS Project about getting help to choose a brewdog branded beer,
-Pulling data from punk api.
+Basic VuejS Project thats suggests random  brewdog branded beer
+Pulling its the data from the [punk api](https://punkapi.com/)
 
-Uses Vuetify framework
+Uses [Vuetify](https://vuetifyjs.com/en/) framework
 
-jest for testing
+Jest for testing
 
-travisCi
+TravisCi for CI/CD
+
+Deployed to Heroku: [Beer Me](https://beer-me-vue.herokuapp.com/)
 ## Project setup
 ```
 npm install
