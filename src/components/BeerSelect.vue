@@ -23,6 +23,7 @@ export default {
             showBeers: false
         };
     },
+    // method for toggling beer choice
     methods: {
         toggleBeers() {
             this.showBeers = !this.showBeers;

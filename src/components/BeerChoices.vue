@@ -26,6 +26,7 @@ export default {
             errored: false
         };
     },
+    // Api get request to get random brewdog beer data
     mounted() {
         axios
             .get('https://api.punkapi.com/v2/beers/random')
