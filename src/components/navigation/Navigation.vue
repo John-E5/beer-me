@@ -14,9 +14,9 @@
         </v-navigation-drawer>
         <v-app-bar app color="indigo darken-4">
             <v-app-bar-nav-icon
-                @click.stop="drawer = !drawer"
+                @click.stop="drawer = !drawer" class="title-color"
             ></v-app-bar-nav-icon>
-            <v-toolbar-title>{{ siteTitle }}</v-toolbar-title>
+            <V-toolbar-title class="title-color">{{ siteTitle }}</v-toolbar-title>
 
             <v-spacer></v-spacer>
         </v-app-bar>
@@ -35,4 +35,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.title-color {
+    color: white;
+} 
+</style>
